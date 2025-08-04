@@ -636,26 +636,27 @@ h4.peofile-header {
   stroke-width: 2px;
   stroke: rgba(210, 210, 210, 0.82);
   align-items: center;
+  height: 80px;
 }
 .upgrade-title {
-  color: #000;
-  font-family: "Red Hat Display";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+    color: #000;
+    font-family: "Red Hat Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .upgrade-btn {
-  padding: 10px 24px;
-  border-radius: 75px;
-  border: 2px solid #000;
-  background: #f3ffdf;
-  color: #160102;
-  font-family: "Red Hat Display";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
+    padding: 8px 20px;
+    border-radius: 75px;
+    border: 2px solid #000;
+    background: #f3ffdf;
+    color: #160102;
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 /* Benefits Box */
@@ -736,20 +737,20 @@ span.benefit-icon > svg {
     border: 1px solid #efefef;
     border-radius: 12px;
     padding: 20px;
-    height: 220px;
+    height: 180px;
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
 }
 
 .ad-heading {
-    margin-bottom: 20px;
+margin-bottom: 20px;
     z-index: 2;
     position: relative;
     color: var(--black, #202125);
     /* font-family: Manrope; */
-    font-size: 32px;
+    font-size: 28px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 1;
 }
 
@@ -783,7 +784,7 @@ position: absolute;
      position: absolute;
     bottom: 0;
     right: 20px;
-    height: 192px;
+    height: 170px;
     object-fit: contain;
     z-index: 1;
     pointer-events: none;
